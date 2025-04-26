@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+header {
+  background-color: #ff7700;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.admin-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.admin-container {
+  padding: 30px;
+}
+
+.admin-container h2 {
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #2d2d2d;
+  border: 1px solid #ff7700;
+  border-radius: 5px;
+  color: white;
+}
+
+button {
+  background-color: #ff5500;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#currentPets {
+  margin-top: 20px;
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+}
