@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BGSI: NEON Values</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">BGSI: NEON Values</div>
+    <div class="nav">
+      <button onclick="openCalculator()">Trade Calculator</button>
+      <div class="discord-user">Discord: @neonbiock</div>
+    </div>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="searchBar" placeholder="Search pets..." onkeyup="searchPets()">
+  </div>
+
+  <div class="tabs">
+    <button class="tablink active" onclick="filterPets('All')">All</button>
+    <button class="tablink" onclick="filterPets('Secret')">Secret</button>
+    <button class="tablink" onclick="filterPets('Legendary')">Legendary</button>
+    <button class="tablink" onclick="filterPets('Limited')">Limited</button>
+  </div>
+
+  <div class="variant-tabs">
+    <button class="variantlink active" onclick="filterVariant('Normal')">Normal</button>
+    <button class="variantlink" onclick="filterVariant('Shiny')">Shiny</button>
+    <button class="variantlink" onclick="filterVariant('Mythic')">Mythic</button>
+    <button class="variantlink" onclick="filterVariant('Shiny Mythic')">Shiny Mythic</button>
+  </div>
+
+  <section id="pet-list">
+    <!-- Pets will be loaded here dynamically -->
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
