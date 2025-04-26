@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - NEON Values</title>
+  <link rel="stylesheet" href="admin-style.css">
+</head>
+<body>
+  <header>
+    <div class="admin-title">Admin Dashboard</div>
+  </header>
+
+  <div class="admin-container">
+    <h2>Add a New Pet</h2>
+    <input type="text" id="petName" placeholder="Pet Name">
+    <input type="text" id="petType" placeholder="Type (Secret, Legendary, Limited)">
+    <input type="text" id="petVariant" placeholder="Variant (Normal, Shiny, Mythic, Shiny Mythic)">
+    <input type="text" id="petValue" placeholder="Value">
+    <input type="text" id="petDemand" placeholder="Demand (1/5 to 5/5)">
+    <button onclick="addPet()">Add Pet</button>
+
+    <h2>Current Pets</h2>
+    <div id="currentPets">
+      <!-- Pets will be listed here dynamically -->
+    </div>
+  </div>
+
+  <script src="admin-scripts.js"></script>
+</body>
+</html>
