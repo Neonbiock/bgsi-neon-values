@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+header {
+  background-color: #ff7700;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.discord-user {
+  font-size: 14px;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-container input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.tabs, .variant-tabs {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tablink, .variantlink {
+  background-color: #ff7700;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tablink.active, .variantlink.active {
+  background-color: #ff5500;
+}
+
+#pet-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.pet-card {
+  background-color: #2d2d2d;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pet-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.pet-name {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.pet-value, .pet-demand, .pet-updated {
+  margin-top: 5px;
+  font-size: 14px;
+}
