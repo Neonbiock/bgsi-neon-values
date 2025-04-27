@@ -3,7 +3,7 @@ function searchPets() {
   let petCards = document.getElementsByClassName('pet-card');
 
   for (let i = 0; i < petCards.length; i++) {
-    let name = petCards[i].getElementsByClassName('pet-name')[0].innerText.toLowerCase();
+    let name = petCards[i].innerText.toLowerCase();
     if (name.includes(input)) {
       petCards[i].style.display = "";
     } else {
@@ -46,8 +46,4 @@ function filterVariant(variant) {
     variantlinks[i].classList.remove('active');
   }
   event.target.classList.add('active');
-}
-
-function openCalculator() {
-  window.location.href = "calculator.html"; // or wherever you set the calculator page later
 }
