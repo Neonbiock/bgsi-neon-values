@@ -18,18 +18,15 @@ header {
   font-weight: bold;
 }
 
-.nav button {
-  background-color: #333;
+.nav a {
   color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-right: 20px;
-  cursor: pointer;
-  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
 }
 
-.discord-user {
-  font-size: 14px;
+.nav a:hover {
+  text-decoration: underline;
 }
 
 .search-container {
@@ -41,6 +38,10 @@ header {
   width: 300px;
   padding: 10px;
   font-size: 16px;
+  border: 1px solid #ff7700;
+  border-radius: 5px;
+  background-color: #2d2d2d;
+  color: white;
 }
 
 .tabs, .variant-tabs {
@@ -76,18 +77,73 @@ header {
   text-align: center;
 }
 
-.pet-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.pet-name {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.pet-value, .pet-demand, .pet-updated {
-  margin-top: 5px;
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
   font-size: 14px;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.welcome h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.top-pets {
+  padding: 30px;
+}
+
+.pet-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.center-button {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.values-button {
+  background-color: #ff5500;
+  padding: 10px 25px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.calculator {
+  padding: 30px;
+  text-align: center;
+}
+
+.calc-sides {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.offer-side, .request-side {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.slots {
+  margin-top: 15px;
+}
+
+.total-values {
+  margin-top: 40px;
+  font-size: 20px;
 }
