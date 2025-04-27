@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEON Values - Trade Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">NEON Values</div>
+    <div class="nav">
+      <a href="home.html">Home</a>
+      <a href="index.html">Values</a>
+      <a href="calculator.html">Calculator</a>
+    </div>
+  </header>
+
+  <section class="calculator">
+    <h1>Trade Calculator</h1>
+
+    <div class="calc-sides">
+      <div class="offer-side">
+        <h2>Your Offer</h2>
+        <input type="text" placeholder="Search pet..." class="search-offer">
+        <div class="slots" id="offerSlots">
+          <!-- 10 slots for offer -->
+        </div>
+      </div>
+
+      <div class="request-side">
+        <h2>Your Request</h2>
+        <input type="text" placeholder="Search pet..." class="search-request">
+        <div class="slots" id="requestSlots">
+          <!-- 10 slots for request -->
+        </div>
+      </div>
+    </div>
+
+    <div class="total-values">
+      <div>Offer Total Value: <span id="offerTotal">0</span></div>
+      <div>Request Total Value: <span id="requestTotal">0</span></div>
+    </div>
+  </section>
+
+  <footer>
+    NEON Values © 2025
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
